@@ -44,7 +44,7 @@ class SearchControl extends Component{
 }
 
 const mapStateToProps=(state, ownProps) => {
-    console.log(ownProps);
+    //console.log(ownProps);
     let ownValue;
     if(ownProps.value){
         ownValue=ownProps.value;
