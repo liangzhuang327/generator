@@ -28,7 +28,7 @@ module.exports = {
     ]
   },
   resolve:{
-    extensions:['','.js','.jsx']
+    extensions:['.js','.jsx']
   },
   devServer: {
     contentBase: "./viewHook",//本地服务器所加载的页面所在的目录
